@@ -4,7 +4,7 @@
         flex-direction: column;
     }
     body{
-        background-color: rgba(0, 0, 0, 0.966);
+        background-color: rgba(0, 0, 1, 0.966);
         transition: 3s ease all;
     }
     .botao{
@@ -26,8 +26,11 @@
         display:none;
     }
     body{
-        background-color: rgba(0, 0, 0, 0.966);
+        background-color: rgba(0, 0, 1, 0.966);
         transition: 3s ease all;
+    }
+    .filme-principal{
+        background-position:center;
     }
 }
 @media screen and (min-width:1000px){
