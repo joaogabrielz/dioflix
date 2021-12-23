@@ -20,6 +20,15 @@
     .botoes{
         display: flex;
     }
+    a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        transition: .3s ease all;
+    }
+    a:hover{
+        color: black;
+    }
 }
 @media screen and (max-width:700px){
     nav{
@@ -31,6 +40,15 @@
     }
     .filme-principal{
         background-position:center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        transition: .3s ease all;
+    }
+    a:hover{
+        color: black;
     }
 }
 @media screen and (min-width:1000px){
